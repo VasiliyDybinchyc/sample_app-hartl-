@@ -44,11 +44,11 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'sqlite3'
 end
 
+  gem 'pg'
+
 group :production do
-  gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
 
