@@ -48,6 +48,7 @@ end
 
   gem 'pg'
   gem 'bootstrap-sass'
+  gem 'bcrypt'
 
 group :production do
   gem 'rails_12factor', '0.0.2'
