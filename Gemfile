@@ -51,9 +51,9 @@ end
   gem 'pg'
   gem 'bootstrap-sass'
   gem 'bcrypt'
-  gem 'faker'
   gem 'will_paginate'
   gem 'bootstrap-will_paginate'
+  gem 'faker'
 
 group :production do
   gem 'rails_12factor', '0.0.2'
